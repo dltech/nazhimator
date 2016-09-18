@@ -1,0 +1,5 @@
+This program push the buttons on the printer. It works on the STM32F103 MCU, and
+written in C using HAL in AC6 OpenStm32.
+
+Format of the message: delay:№B:№B:№B:№B:№B:№B:№B. Where delay - time between
+clicking, #B - the number of buton. If clicking is skipped, №B is equal 0.
